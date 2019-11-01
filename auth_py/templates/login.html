@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-<h1> Home </h1>
+  <h1> User Login </h1>
     <nav>
     <ul>
     <li><a href="{% url 'login' %}">Login</a></li>
@@ -25,5 +25,11 @@
     </div>
     {% endif %}
     </hr>
+    <form method= "POST">
+    {% csrf_token %}
+    {{login_form}}
+    <button type="submit">Submit</button>
+    </form>
+
 </body>
 </html>
