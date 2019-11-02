@@ -1,7 +1,2 @@
 # Code Institute
-
-Welcome blueag8,
-
-We have preinstalled all of the tools you need to get started.
-
-Happy coding!
+https://django-bootstrap-form.readthedocs.io/en/latest/
